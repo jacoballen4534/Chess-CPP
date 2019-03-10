@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="chess"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/jacoballen/CLionProjects/chess/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/jacoballen/CLionProjects/chess/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/jacoballen/CLionProjects/chess/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/jacoballen/CLionProjects/chess/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/jacoballen/CLionProjects/chess/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/jacoballen/CLionProjects/chess/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/jacoballen/CLionProjects/chess/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/jacoballen/CLionProjects/chess/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/jacoballen/CLionProjects/chess/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/jacoballen/CLionProjects/chess/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/jacoballen/CLionProjects/chess/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/jacoballen/CLionProjects/chess/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/jacoballen/CLionProjects/chess/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/jacoballen/CLionProjects/chess/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/jacoballen/CLionProjects/chess/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="chess">
+				<Option output="/Users/jacoballen/CLionProjects/chess/cmake-build-debug/chess" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jacoballen/CLionProjects/chess/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/jacoballen/CLionProjects/chess/cmake-build-debug/Makefile&quot;  VERBOSE=1 chess"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/jacoballen/CLionProjects/chess/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/jacoballen/CLionProjects/chess/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/jacoballen/CLionProjects/chess/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="chess/fast">
+				<Option output="/Users/jacoballen/CLionProjects/chess/cmake-build-debug/chess" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jacoballen/CLionProjects/chess/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/jacoballen/CLionProjects/chess/cmake-build-debug/Makefile&quot;  VERBOSE=1 chess/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/jacoballen/CLionProjects/chess/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/jacoballen/CLionProjects/chess/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/jacoballen/CLionProjects/chess/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/jacoballen/CLionProjects/chess/Bishop.cpp">
+			<Option target="chess"/>
+		</Unit>
+		<Unit filename="/Users/jacoballen/CLionProjects/chess/Bishop.h">
+			<Option target="chess"/>
+		</Unit>
+		<Unit filename="/Users/jacoballen/CLionProjects/chess/Board.cpp">
+			<Option target="chess"/>
+		</Unit>
+		<Unit filename="/Users/jacoballen/CLionProjects/chess/Board.h">
+			<Option target="chess"/>
+		</Unit>
+		<Unit filename="/Users/jacoballen/CLionProjects/chess/Bot.cpp">
+			<Option target="chess"/>
+		</Unit>
+		<Unit filename="/Users/jacoballen/CLionProjects/chess/Bot.h">
+			<Option target="chess"/>
+		</Unit>
+		<Unit filename="/Users/jacoballen/CLionProjects/chess/Game.cpp">
+			<Option target="chess"/>
+		</Unit>
+		<Unit filename="/Users/jacoballen/CLionProjects/chess/Game.h">
+			<Option target="chess"/>
+		</Unit>
+		<Unit filename="/Users/jacoballen/CLionProjects/chess/Human.cpp">
+			<Option target="chess"/>
+		</Unit>
+		<Unit filename="/Users/jacoballen/CLionProjects/chess/Human.h">
+			<Option target="chess"/>
+		</Unit>
+		<Unit filename="/Users/jacoballen/CLionProjects/chess/King.cpp">
+			<Option target="chess"/>
+		</Unit>
+		<Unit filename="/Users/jacoballen/CLionProjects/chess/King.h">
+			<Option target="chess"/>
+		</Unit>
+		<Unit filename="/Users/jacoballen/CLionProjects/chess/Knight.cpp">
+			<Option target="chess"/>
+		</Unit>
+		<Unit filename="/Users/jacoballen/CLionProjects/chess/Knight.h">
+			<Option target="chess"/>
+		</Unit>
+		<Unit filename="/Users/jacoballen/CLionProjects/chess/Pawn.cpp">
+			<Option target="chess"/>
+		</Unit>
+		<Unit filename="/Users/jacoballen/CLionProjects/chess/Pawn.h">
+			<Option target="chess"/>
+		</Unit>
+		<Unit filename="/Users/jacoballen/CLionProjects/chess/Piece.cpp">
+			<Option target="chess"/>
+		</Unit>
+		<Unit filename="/Users/jacoballen/CLionProjects/chess/Piece.h">
+			<Option target="chess"/>
+		</Unit>
+		<Unit filename="/Users/jacoballen/CLionProjects/chess/Player.cpp">
+			<Option target="chess"/>
+		</Unit>
+		<Unit filename="/Users/jacoballen/CLionProjects/chess/Player.h">
+			<Option target="chess"/>
+		</Unit>
+		<Unit filename="/Users/jacoballen/CLionProjects/chess/Position.cpp">
+			<Option target="chess"/>
+		</Unit>
+		<Unit filename="/Users/jacoballen/CLionProjects/chess/Position.h">
+			<Option target="chess"/>
+		</Unit>
+		<Unit filename="/Users/jacoballen/CLionProjects/chess/Queen.cpp">
+			<Option target="chess"/>
+		</Unit>
+		<Unit filename="/Users/jacoballen/CLionProjects/chess/Queen.h">
+			<Option target="chess"/>
+		</Unit>
+		<Unit filename="/Users/jacoballen/CLionProjects/chess/Rook.cpp">
+			<Option target="chess"/>
+		</Unit>
+		<Unit filename="/Users/jacoballen/CLionProjects/chess/Rook.h">
+			<Option target="chess"/>
+		</Unit>
+		<Unit filename="/Users/jacoballen/CLionProjects/chess/main.cpp">
+			<Option target="chess"/>
+		</Unit>
+		<Unit filename="/Users/jacoballen/CLionProjects/chess/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
