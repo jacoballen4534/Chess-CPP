@@ -1,5 +1,5 @@
 ## My own chess engine in C++
-This chess engine runs in the terminal and takes move inputs in the form:
+This chess engine runs in the terminal and takes move inputs in the form:<br/>
 [letter_colum_from, number_row_from], [letter_colum_to, number_row_to]
 
 This project has been developed and tested in a unix environment.
